@@ -1,0 +1,12 @@
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.exe.config
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.exe
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.pdb
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.AssemblyReference.cache
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Home.resources
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Houses.resources
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Login.resources
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Properties.Resources.resources
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.GenerateResource.cache
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.exe
+C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.pdb
