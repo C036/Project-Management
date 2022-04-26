@@ -37,6 +37,7 @@ namespace PPM_Real_Estate
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.loginBtn = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.registerBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,12 +112,26 @@ namespace PPM_Real_Estate
             this.button3.Text = "<";
             this.button3.UseVisualStyleBackColor = false;
             // 
+            // registerBtn
+            // 
+            this.registerBtn.BackColor = System.Drawing.Color.Teal;
+            this.registerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.registerBtn.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registerBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.registerBtn.Location = new System.Drawing.Point(62, 460);
+            this.registerBtn.Name = "registerBtn";
+            this.registerBtn.Size = new System.Drawing.Size(212, 49);
+            this.registerBtn.TabIndex = 21;
+            this.registerBtn.Text = "Register ";
+            this.registerBtn.UseVisualStyleBackColor = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(363, 548);
+            this.Controls.Add(this.registerBtn);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.loginBtn);
             this.Controls.Add(this.pictureBox1);
@@ -142,6 +157,7 @@ namespace PPM_Real_Estate
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button loginBtn;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button registerBtn;
     }
 }
 
