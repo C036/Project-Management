@@ -36,11 +36,11 @@ namespace PPM_Real_Estate
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.firstNameInput = new System.Windows.Forms.TextBox();
+            this.lastNameInput = new System.Windows.Forms.TextBox();
+            this.emailInput = new System.Windows.Forms.TextBox();
+            this.passwordInputConfirm = new System.Windows.Forms.TextBox();
+            this.passwordInput = new System.Windows.Forms.TextBox();
             this.createBtn = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -109,42 +109,42 @@ namespace PPM_Real_Estate
             this.label5.TabIndex = 12;
             this.label5.Text = "Re-Enter \r\nPassword";
             // 
-            // textBox1
+            // firstNameInput
             // 
-            this.textBox1.Location = new System.Drawing.Point(79, 168);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(233, 20);
-            this.textBox1.TabIndex = 13;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.firstNameInput.Location = new System.Drawing.Point(79, 168);
+            this.firstNameInput.Name = "firstNameInput";
+            this.firstNameInput.Size = new System.Drawing.Size(233, 20);
+            this.firstNameInput.TabIndex = 13;
+            this.firstNameInput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // lastNameInput
             // 
-            this.textBox2.Location = new System.Drawing.Point(79, 226);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(233, 20);
-            this.textBox2.TabIndex = 14;
+            this.lastNameInput.Location = new System.Drawing.Point(79, 226);
+            this.lastNameInput.Name = "lastNameInput";
+            this.lastNameInput.Size = new System.Drawing.Size(233, 20);
+            this.lastNameInput.TabIndex = 14;
             // 
-            // textBox3
+            // emailInput
             // 
-            this.textBox3.Location = new System.Drawing.Point(79, 284);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(233, 20);
-            this.textBox3.TabIndex = 15;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.emailInput.Location = new System.Drawing.Point(79, 284);
+            this.emailInput.Name = "emailInput";
+            this.emailInput.Size = new System.Drawing.Size(233, 20);
+            this.emailInput.TabIndex = 15;
+            this.emailInput.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox4
+            // passwordInputConfirm
             // 
-            this.textBox4.Location = new System.Drawing.Point(79, 430);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(233, 20);
-            this.textBox4.TabIndex = 16;
+            this.passwordInputConfirm.Location = new System.Drawing.Point(79, 430);
+            this.passwordInputConfirm.Name = "passwordInputConfirm";
+            this.passwordInputConfirm.Size = new System.Drawing.Size(233, 20);
+            this.passwordInputConfirm.TabIndex = 16;
             // 
-            // textBox5
+            // passwordInput
             // 
-            this.textBox5.Location = new System.Drawing.Point(79, 344);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(233, 20);
-            this.textBox5.TabIndex = 17;
+            this.passwordInput.Location = new System.Drawing.Point(79, 344);
+            this.passwordInput.Name = "passwordInput";
+            this.passwordInput.Size = new System.Drawing.Size(233, 20);
+            this.passwordInput.TabIndex = 17;
             // 
             // createBtn
             // 
@@ -158,6 +158,7 @@ namespace PPM_Real_Estate
             this.createBtn.TabIndex = 18;
             this.createBtn.Text = "Create";
             this.createBtn.UseVisualStyleBackColor = false;
+            this.createBtn.Click += new System.EventHandler(this.createBtn_Click);
             // 
             // button3
             // 
@@ -180,11 +181,11 @@ namespace PPM_Real_Estate
             this.ClientSize = new System.Drawing.Size(372, 552);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.createBtn);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.passwordInput);
+            this.Controls.Add(this.passwordInputConfirm);
+            this.Controls.Add(this.emailInput);
+            this.Controls.Add(this.lastNameInput);
+            this.Controls.Add(this.firstNameInput);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -208,11 +209,11 @@ namespace PPM_Real_Estate
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox firstNameInput;
+        private System.Windows.Forms.TextBox lastNameInput;
+        private System.Windows.Forms.TextBox emailInput;
+        private System.Windows.Forms.TextBox passwordInputConfirm;
+        private System.Windows.Forms.TextBox passwordInput;
         private System.Windows.Forms.Button createBtn;
         private System.Windows.Forms.Button button3;
     }

@@ -16,7 +16,7 @@ namespace PPM_Real_Estate
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Houses());
+            Application.Run(new Login());
         }
     }
 }
