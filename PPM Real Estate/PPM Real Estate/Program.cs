@@ -19,4 +19,11 @@ namespace PPM_Real_Estate
             Application.Run(new Login());
         }
     }
+
+    static class userLogin
+    {
+        private static bool login = false;
+        public static bool loggedIn = false;
+    }
+
 }

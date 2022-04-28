@@ -73,6 +73,9 @@
     <Compile Include="bookViewing.Designer.cs">
       <DependentUpon>bookViewing.cs</DependentUpon>
     </Compile>
+    <Compile Include="Database1DataSet.cs">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Database1DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
