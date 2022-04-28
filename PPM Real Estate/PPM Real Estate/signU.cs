@@ -79,7 +79,7 @@ namespace PPM_Real_Estate
                     SqlConnection connect = new SqlConnection(connectionString);
 
                     //enter data entries into database
-                    SqlCommand newUser = new SqlCommand("INSERT Users (firstName, lastName, password, phoneNumber, email) VALUES('" + firstNameString + "', '" + lastNameString + "', '" + passwordString + "', '" + emailString + "')", connect);
+                    SqlCommand newUser = new SqlCommand("INSERT Users (firstName, lastName, password, email) VALUES('" + firstNameString + "', '" + lastNameString + "', '" + passwordString + "', '" + emailString + "')", connect);
 
 
                     connect.Open();

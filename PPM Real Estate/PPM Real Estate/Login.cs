@@ -46,11 +46,12 @@ namespace PPM_Real_Estate
                 string connectionString = PPM_Real_Estate.Properties.Settings.Default.Primary_Database; //Database Connection Callup
                 SqlConnection connect = new SqlConnection(connectionString);
 
-                SqlCommand emailValidation = new SqlCommand("SELECT Users WHERE (email = '" + email + "')", connect);
-                SqlCommand passwordValidation = new SqlCommand("SELECT Users WHERE (password = '" + password + "')", connect);
+                SqlCommand emailValidation = new SqlCommand("SELECT email FROM Users WHERE " + email + "", connect);
+                SqlCommand passwordValidation = new SqlCommand("SELECT password FROM Users WHERE " + password + "", connect);
 
                 //debug
-                MessageBox.Show("SELECT Users WHERE (email = '" + email + "')" + " " + "SELECT Users WHERE (password = '" + password + "')");
+                MessageBox.Show("SELECT email FROM Users WHERE " + email + "");
+                MessageBox.Show("SELECT password FROM Users WHERE " + password + "");
 
 
 

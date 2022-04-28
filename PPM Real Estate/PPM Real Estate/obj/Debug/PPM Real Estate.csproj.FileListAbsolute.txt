@@ -40,3 +40,20 @@ C:\Users\patti\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\o
 C:\Users\patti\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.CoreCompileInputs.cache
 C:\Users\patti\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.exe
 C:\Users\patti\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.pdb
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.exe.config
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.exe
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.pdb
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.AssemblyReference.cache
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.SuggestedBindingRedirects.cache
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.bookViewing.resources
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Home.resources
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Houses.resources
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Login.resources
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Properties.Resources.resources
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.signU.resources
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.GenerateResource.cache
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.CoreCompileInputs.cache
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.exe
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.pdb
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1.mdf
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1_log.ldf
