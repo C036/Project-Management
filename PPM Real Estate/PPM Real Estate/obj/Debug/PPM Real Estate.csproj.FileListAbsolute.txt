@@ -55,8 +55,6 @@ D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Es
 D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.CoreCompileInputs.cache
 D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.exe
 D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.pdb
-D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1.mdf
-D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1_log.ldf
 C:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1.mdf
 C:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1_log.ldf
 C:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1DataSet.Designer.cs
@@ -78,3 +76,9 @@ C:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Es
 C:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.CoreCompileInputs.cache
 C:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.exe
 C:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.pdb
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1DataSet.Designer.cs
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1DataSet.xsc
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1DataSet.xsd
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1DataSet.xss
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\.mdf
+D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\_log.ldf

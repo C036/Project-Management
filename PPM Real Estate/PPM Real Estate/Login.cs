@@ -49,24 +49,41 @@ namespace PPM_Real_Estate
                 SqlCommand emailValidation = new SqlCommand("SELECT email FROM Users WHERE email = '" + email + "'", connect);
                 SqlCommand passwordValidation = new SqlCommand("SELECT password FROM Users WHERE password = '" + password + "'", connect);
 
+
                 //debug
                 //MessageBox.Show("SELECT email FROM Users WHERE " + email + "");
                 //MessageBox.Show("SELECT password FROM Users WHERE " + password + "");
+                //end of debug
 
 
+                string emailCheck = "";
+                string passwordCheck = "";
 
                 connect.Open();
-                string emailCheck = emailValidation.ExecuteNonQuery().ToString();
-                string passwordCheck = passwordValidation.ExecuteNonQuery().ToString();
+                SqlDataReader emailRead = emailValidation.ExecuteReader();
+                    while(emailRead.Read())
+                    { Console.WriteLine("{0}", emailCheck = emailRead.GetString(0));
+                    }
                 connect.Close();
-                MessageBox.Show(emailCheck);
-                MessageBox.Show(passwordCheck);
-                if(emailCheck != email) 
+                connect.Open();
+                SqlDataReader passwordRead = passwordValidation.ExecuteReader();
+                    while (passwordRead.Read())
+                    {
+                        Console.WriteLine("{0}", passwordCheck = passwordRead.GetString(0));
+                    }
+                connect.Close();
+
+                //debug
+                //MessageBox.Show(emailCheck);
+                //MessageBox.Show(passwordCheck);
+                //end of debug
+                
+                if(!(String.Equals (emailCheck, email, StringComparison.OrdinalIgnoreCase)))
                 {
                     errorMessageTxt.ForeColor = Color.Red;
                     errorMessageTxt.Text = ("Please enter a valid email or password");
                 }
-                else if(passwordCheck != password) 
+                else if(!(String.Equals(passwordCheck, password, StringComparison.OrdinalIgnoreCase))) 
                 {
                     errorMessageTxt.ForeColor = Color.Red;
                     errorMessageTxt.Text = ("Please enter a valid email or password");
@@ -76,13 +93,17 @@ namespace PPM_Real_Estate
                     //debug
                     if (userLogin.loggedIn == true) {
                         MessageBox.Show("true");
-                            }
+                        errorMessageTxt.ForeColor = Color.Brown;
+                        errorMessageTxt.Text = ("How did you even get here?");
+                    }
                     else {
                         MessageBox.Show("False");
-                            };
-                    //end of debug
-                    userLogin.loggedIn = true;
-                    errorMessageTxt.ForeColor = Color.White;
+                        userLogin.loggedIn = true;
+                        errorMessageTxt.ForeColor = Color.White;
+                        var homePage = new Home();
+                        homePage.Show();
+                    };
+
                 };
             }
         }
