@@ -92,16 +92,17 @@ namespace PPM_Real_Estate
                 {
                     //debug
                     if (userLogin.loggedIn == true) {
-                        MessageBox.Show("true");
+                        //MessageBox.Show("true");
                         errorMessageTxt.ForeColor = Color.Brown;
                         errorMessageTxt.Text = ("How did you even get here?");
                     }
                     else {
-                        MessageBox.Show("False");
+                        //MessageBox.Show("False");
                         userLogin.loggedIn = true;
                         errorMessageTxt.ForeColor = Color.White;
                         var homePage = new Home();
                         homePage.Show();
+                        this.Hide();
                     };
 
                 };
