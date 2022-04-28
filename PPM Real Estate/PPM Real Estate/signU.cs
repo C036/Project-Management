@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+
 namespace PPM_Real_Estate
 {
     public partial class signU : Form
@@ -49,10 +50,27 @@ namespace PPM_Real_Estate
             string firstNameString = firstNameInput.Text;
             string lastNameString = lastNameInput.Text;
             string emailString = emailInput.Text;
-            string passwordString = passwordInput.Text;
-            string passwordConfirmString = passwordInputConfirm.Text;
+            string passwordString = passwordInputConfirm.Text;
+            string passwordConfirmString = passwordInput.Text;
 
-            if (firstNameString != "" | lastNameString != "" | emailString != "" | passwordString != "") {
+            if (firstNameString == "") {
+                errorMessageTxt.ForeColor = Color.Red;
+                errorMessageTxt.Text = ("Please enter a first name");
+
+            }
+            else if (lastNameString == "") {
+                errorMessageTxt.ForeColor = Color.Red;
+                errorMessageTxt.Text = ("Please enter a second name");
+            }
+            else if (emailString == "") {
+                errorMessageTxt.ForeColor = Color.Red;
+                errorMessageTxt.Text = ("Please enter a email");
+            }
+            else if (passwordString == "") {
+                errorMessageTxt.ForeColor = Color.Red;
+                errorMessageTxt.Text = ("Please enter a password and confirm it");
+            }
+            else {
                 if (passwordString == passwordConfirmString)
                 {
 
@@ -61,20 +79,26 @@ namespace PPM_Real_Estate
                     SqlConnection connect = new SqlConnection(connectionString);
 
                     //enter data entries into database
-                    SqlCommand addEntry = new SqlCommand("INSERT Users (firstName, lastName, password, phoneNumber, email) VALUES('" + firstNameString + "', '" + lastNameString + "', '" + passwordString + "', '" + emailString + "')", connect);
+                    SqlCommand newUser = new SqlCommand("INSERT Users (firstName, lastName, password, phoneNumber, email) VALUES('" + firstNameString + "', '" + lastNameString + "', '" + passwordString + "', '" + emailString + "')", connect);
 
 
                     connect.Open();
-                    addEntry.ExecuteNonQuery();
+                    newUser.ExecuteNonQuery();
                     connect.Close();
+
+                    this.Close();
                 }
-                else {
-                    System.Windows.Forms.MessageBox.Show("Passwords must match");
-                    };
-                }
-            else {
-                System.Windows.Forms.MessageBox.Show("Please make sure you have filled all the boxes");
+                else
+                {
+                    errorMessageTxt.ForeColor = Color.Red;
+                    errorMessageTxt.Text = ("Please make sure your passwords match");
+                };
             };
+        }
+
+        private void signU_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

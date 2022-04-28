@@ -39,19 +39,21 @@ namespace PPM_Real_Estate
             this.firstNameInput = new System.Windows.Forms.TextBox();
             this.lastNameInput = new System.Windows.Forms.TextBox();
             this.emailInput = new System.Windows.Forms.TextBox();
-            this.passwordInputConfirm = new System.Windows.Forms.TextBox();
             this.passwordInput = new System.Windows.Forms.TextBox();
+            this.passwordInputConfirm = new System.Windows.Forms.TextBox();
             this.createBtn = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.errorMessageTxt = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(84, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(112, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(202, 124);
+            this.pictureBox1.Size = new System.Drawing.Size(269, 153);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -61,9 +63,10 @@ namespace PPM_Real_Estate
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(49, 143);
+            this.label1.Location = new System.Drawing.Point(65, 176);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 22);
+            this.label1.Size = new System.Drawing.Size(122, 27);
             this.label1.TabIndex = 8;
             this.label1.Text = "First Name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -72,9 +75,10 @@ namespace PPM_Real_Estate
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(49, 201);
+            this.label2.Location = new System.Drawing.Point(65, 247);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 22);
+            this.label2.Size = new System.Drawing.Size(120, 27);
             this.label2.TabIndex = 9;
             this.label2.Text = "Last Name";
             // 
@@ -82,9 +86,10 @@ namespace PPM_Real_Estate
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(49, 259);
+            this.label3.Location = new System.Drawing.Point(65, 319);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 22);
+            this.label3.Size = new System.Drawing.Size(76, 27);
             this.label3.TabIndex = 10;
             this.label3.Text = "E-mail";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -93,9 +98,10 @@ namespace PPM_Real_Estate
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(49, 319);
+            this.label4.Location = new System.Drawing.Point(65, 393);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 22);
+            this.label4.Size = new System.Drawing.Size(108, 27);
             this.label4.TabIndex = 11;
             this.label4.Text = "Password";
             // 
@@ -103,48 +109,54 @@ namespace PPM_Real_Estate
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(49, 383);
+            this.label5.Location = new System.Drawing.Point(65, 471);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(89, 44);
+            this.label5.Size = new System.Drawing.Size(108, 54);
             this.label5.TabIndex = 12;
             this.label5.Text = "Re-Enter \r\nPassword";
             // 
             // firstNameInput
             // 
-            this.firstNameInput.Location = new System.Drawing.Point(79, 168);
+            this.firstNameInput.Location = new System.Drawing.Point(105, 207);
+            this.firstNameInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.firstNameInput.Name = "firstNameInput";
-            this.firstNameInput.Size = new System.Drawing.Size(233, 20);
+            this.firstNameInput.Size = new System.Drawing.Size(309, 22);
             this.firstNameInput.TabIndex = 13;
             this.firstNameInput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lastNameInput
             // 
-            this.lastNameInput.Location = new System.Drawing.Point(79, 226);
+            this.lastNameInput.Location = new System.Drawing.Point(105, 278);
+            this.lastNameInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lastNameInput.Name = "lastNameInput";
-            this.lastNameInput.Size = new System.Drawing.Size(233, 20);
+            this.lastNameInput.Size = new System.Drawing.Size(309, 22);
             this.lastNameInput.TabIndex = 14;
             // 
             // emailInput
             // 
-            this.emailInput.Location = new System.Drawing.Point(79, 284);
+            this.emailInput.Location = new System.Drawing.Point(105, 350);
+            this.emailInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.emailInput.Name = "emailInput";
-            this.emailInput.Size = new System.Drawing.Size(233, 20);
+            this.emailInput.Size = new System.Drawing.Size(309, 22);
             this.emailInput.TabIndex = 15;
             this.emailInput.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // passwordInputConfirm
-            // 
-            this.passwordInputConfirm.Location = new System.Drawing.Point(79, 430);
-            this.passwordInputConfirm.Name = "passwordInputConfirm";
-            this.passwordInputConfirm.Size = new System.Drawing.Size(233, 20);
-            this.passwordInputConfirm.TabIndex = 16;
-            // 
             // passwordInput
             // 
-            this.passwordInput.Location = new System.Drawing.Point(79, 344);
+            this.passwordInput.Location = new System.Drawing.Point(105, 424);
+            this.passwordInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.passwordInput.Name = "passwordInput";
-            this.passwordInput.Size = new System.Drawing.Size(233, 20);
-            this.passwordInput.TabIndex = 17;
+            this.passwordInput.Size = new System.Drawing.Size(309, 22);
+            this.passwordInput.TabIndex = 16;
+            // 
+            // passwordInputConfirm
+            // 
+            this.passwordInputConfirm.Location = new System.Drawing.Point(105, 529);
+            this.passwordInputConfirm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.passwordInputConfirm.Name = "passwordInputConfirm";
+            this.passwordInputConfirm.Size = new System.Drawing.Size(309, 22);
+            this.passwordInputConfirm.TabIndex = 17;
             // 
             // createBtn
             // 
@@ -152,9 +164,10 @@ namespace PPM_Real_Estate
             this.createBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.createBtn.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.createBtn.Location = new System.Drawing.Point(111, 480);
+            this.createBtn.Location = new System.Drawing.Point(148, 591);
+            this.createBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.createBtn.Name = "createBtn";
-            this.createBtn.Size = new System.Drawing.Size(158, 46);
+            this.createBtn.Size = new System.Drawing.Size(211, 57);
             this.createBtn.TabIndex = 18;
             this.createBtn.Text = "Create";
             this.createBtn.UseVisualStyleBackColor = false;
@@ -166,23 +179,37 @@ namespace PPM_Real_Estate
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(2, 1);
+            this.button3.Location = new System.Drawing.Point(3, 1);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(26, 44);
+            this.button3.Size = new System.Drawing.Size(35, 54);
             this.button3.TabIndex = 20;
             this.button3.Text = "<";
             this.button3.UseVisualStyleBackColor = false;
             // 
+            // errorMessageTxt
+            // 
+            this.errorMessageTxt.AutoSize = true;
+            this.errorMessageTxt.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errorMessageTxt.ForeColor = System.Drawing.Color.White;
+            this.errorMessageTxt.Location = new System.Drawing.Point(102, 555);
+            this.errorMessageTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.errorMessageTxt.Name = "errorMessageTxt";
+            this.errorMessageTxt.Size = new System.Drawing.Size(312, 19);
+            this.errorMessageTxt.TabIndex = 21;
+            this.errorMessageTxt.Text = "This is default text delete prior to launch";
+            // 
             // signU
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(372, 552);
+            this.ClientSize = new System.Drawing.Size(496, 679);
+            this.Controls.Add(this.errorMessageTxt);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.createBtn);
-            this.Controls.Add(this.passwordInput);
             this.Controls.Add(this.passwordInputConfirm);
+            this.Controls.Add(this.passwordInput);
             this.Controls.Add(this.emailInput);
             this.Controls.Add(this.lastNameInput);
             this.Controls.Add(this.firstNameInput);
@@ -193,8 +220,10 @@ namespace PPM_Real_Estate
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "signU";
             this.Text = "signU";
+            this.Load += new System.EventHandler(this.signU_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -212,9 +241,10 @@ namespace PPM_Real_Estate
         private System.Windows.Forms.TextBox firstNameInput;
         private System.Windows.Forms.TextBox lastNameInput;
         private System.Windows.Forms.TextBox emailInput;
-        private System.Windows.Forms.TextBox passwordInputConfirm;
         private System.Windows.Forms.TextBox passwordInput;
+        private System.Windows.Forms.TextBox passwordInputConfirm;
         private System.Windows.Forms.Button createBtn;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label errorMessageTxt;
     }
 }
