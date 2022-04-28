@@ -10,3 +10,17 @@ C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM 
 C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.CoreCompileInputs.cache
 C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.exe
 C:\Users\chris\OneDrive\Documents\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.pdb
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.exe.config
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.exe
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.pdb
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.AssemblyReference.cache
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.bookViewing.resources
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Home.resources
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Houses.resources
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Login.resources
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Properties.Resources.resources
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.signU.resources
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.GenerateResource.cache
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.CoreCompileInputs.cache
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.exe
+C:\Users\jeffo\source\repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.pdb
