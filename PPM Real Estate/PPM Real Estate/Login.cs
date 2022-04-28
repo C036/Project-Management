@@ -26,18 +26,39 @@ namespace PPM_Real_Estate
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            string emailVerification = emailLogin.Text;
-            string passwordVerfication = passwordLogin.Text;
+            string email = emailLogin.Text;
+            string password = passwordLogin.Text;
 
-            //Open connection to Database
-            string connectionString = PPM_Real_Estate.Properties.Settings.Default.Primary_Database; //Database Connection Callup
-            SqlConnection connect = new SqlConnection(connectionString);
 
-            SqlCommand loginValidation = new SqlCommand("SELECT Users WHERE (email = '" + emailVerification + "') AND password = ('" + passwordVerfication + "')", connect);
-            
-            connect.Open();
-            loginValidation.ExecuteNonQuery();
-            connect.Close();
+            if (email == "")
+            {
+                errorMessageTxt.ForeColor = Color.Red;
+                errorMessageTxt.Text = ("Please make sure to enter a username");
+            }
+            else if (password == "")
+            {
+                errorMessageTxt.ForeColor = Color.Red;
+                errorMessageTxt.Text = ("Please make sure to enter a password");
+            }
+            else
+            {
+                //Open connection to Database
+                string connectionString = PPM_Real_Estate.Properties.Settings.Default.Primary_Database; //Database Connection Callup
+                SqlConnection connect = new SqlConnection(connectionString);
+
+                SqlCommand emailValidation = new SqlCommand("SELECT Users WHERE (email = '" + email + "')", connect);
+                SqlCommand passwordValidation = new SqlCommand("SELECT Users WHERE (password = '" + password + "')", connect);
+
+                //debug
+                MessageBox.Show("SELECT Users WHERE (email = '" + email + "')" + " " + "SELECT Users WHERE (password = '" + password + "')");
+
+
+
+                connect.Open();
+                emailValidation.ExecuteNonQuery();
+                passwordValidation.ExecuteNonQuery();
+                connect.Close();
+            }
         }
     }
 }
