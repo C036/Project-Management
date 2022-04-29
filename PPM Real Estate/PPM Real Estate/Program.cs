@@ -22,8 +22,10 @@ namespace PPM_Real_Estate
 
     static class userLogin
     {
-        private static bool login = false;
         public static bool loggedIn = false;
+        public static string firstName = "";
+        public static string lastName = "";
+        public static string email = "";
     }
 
 }

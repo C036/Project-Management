@@ -99,6 +99,9 @@ namespace PPM_Real_Estate
                     else {
                         //MessageBox.Show("False");
                         userLogin.loggedIn = true;
+                        userLogin.email = email;
+                        userLogin.firstName = firstName;
+                        userLogin.lastName = lastName;
                         errorMessageTxt.ForeColor = Color.White;
                         errorMessageTxt.Text = ("");
                         var homePage = new Home();
