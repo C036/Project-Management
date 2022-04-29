@@ -17,35 +17,33 @@ namespace PPM_Real_Estate
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Search search = new Search();
-            search.Show();
-            this.Hide();
-        }
-
         private void darkModeBtn_Click(object sender, EventArgs e)
         {
-            
-            
                 this.BackColor = Color.Navy;
-   
-
-           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Search search = new Search();
-            search.Show();
-            this.Hide();
+            var searchPage = new Search();
+            searchPage.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Search search = new Search();
-            search.Show();
-            this.Hide();
+            var newViewing = new bookViewing();
+            newViewing.ShowDialog();
+        }
+
+        private void logOut_Click(object sender, EventArgs e)
+        {
+            userLogin.loggedIn = false;
+            this.Dispose();
         }
     }
 }

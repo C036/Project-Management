@@ -21,5 +21,10 @@ namespace PPM_Real_Estate
         {
 
         }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

@@ -31,10 +31,10 @@ namespace PPM_Real_Estate
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.buyProperties = new System.Windows.Forms.Button();
+            this.rentProperties = new System.Windows.Forms.Button();
+            this.bookViewingButton = new System.Windows.Forms.Button();
+            this.logOut = new System.Windows.Forms.Button();
             this.darkModeBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -42,72 +42,68 @@ namespace PPM_Real_Estate
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(299, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(224, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(528, 274);
+            this.pictureBox1.Size = new System.Drawing.Size(396, 223);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // buyProperties
             // 
-            this.button1.BackColor = System.Drawing.Color.Teal;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(405, 324);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(344, 71);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "To Buy";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buyProperties.BackColor = System.Drawing.Color.Teal;
+            this.buyProperties.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buyProperties.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buyProperties.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buyProperties.Location = new System.Drawing.Point(304, 263);
+            this.buyProperties.Name = "buyProperties";
+            this.buyProperties.Size = new System.Drawing.Size(258, 58);
+            this.buyProperties.TabIndex = 9;
+            this.buyProperties.Text = "To Buy";
+            this.buyProperties.UseVisualStyleBackColor = false;
+            this.buyProperties.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // rentProperties
             // 
-            this.button2.BackColor = System.Drawing.Color.Teal;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(405, 402);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(344, 71);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "To Rent ";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.rentProperties.BackColor = System.Drawing.Color.Teal;
+            this.rentProperties.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rentProperties.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rentProperties.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rentProperties.Location = new System.Drawing.Point(304, 327);
+            this.rentProperties.Name = "rentProperties";
+            this.rentProperties.Size = new System.Drawing.Size(258, 58);
+            this.rentProperties.TabIndex = 10;
+            this.rentProperties.Text = "To Rent ";
+            this.rentProperties.UseVisualStyleBackColor = false;
+            this.rentProperties.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // bookViewingButton
             // 
-            this.button3.BackColor = System.Drawing.Color.Teal;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(405, 481);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(344, 71);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Book Viewing ";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.bookViewingButton.BackColor = System.Drawing.Color.Teal;
+            this.bookViewingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bookViewingButton.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bookViewingButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.bookViewingButton.Location = new System.Drawing.Point(304, 391);
+            this.bookViewingButton.Name = "bookViewingButton";
+            this.bookViewingButton.Size = new System.Drawing.Size(258, 58);
+            this.bookViewingButton.TabIndex = 11;
+            this.bookViewingButton.Text = "Book Viewing ";
+            this.bookViewingButton.UseVisualStyleBackColor = false;
+            this.bookViewingButton.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button5
+            // logOut
             // 
-            this.button5.BackColor = System.Drawing.Color.Maroon;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Location = new System.Drawing.Point(1044, 15);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(128, 46);
-            this.button5.TabIndex = 13;
-            this.button5.Text = "Log Out";
-            this.button5.UseVisualStyleBackColor = false;
+            this.logOut.BackColor = System.Drawing.Color.Maroon;
+            this.logOut.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.logOut.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logOut.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.logOut.Location = new System.Drawing.Point(783, 12);
+            this.logOut.Name = "logOut";
+            this.logOut.Size = new System.Drawing.Size(96, 37);
+            this.logOut.TabIndex = 13;
+            this.logOut.Text = "Log Out";
+            this.logOut.UseVisualStyleBackColor = false;
+            this.logOut.Click += new System.EventHandler(this.logOut_Click);
             // 
             // darkModeBtn
             // 
@@ -115,10 +111,9 @@ namespace PPM_Real_Estate
             this.darkModeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.darkModeBtn.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.darkModeBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.darkModeBtn.Location = new System.Drawing.Point(853, 17);
-            this.darkModeBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.darkModeBtn.Location = new System.Drawing.Point(640, 14);
             this.darkModeBtn.Name = "darkModeBtn";
-            this.darkModeBtn.Size = new System.Drawing.Size(183, 43);
+            this.darkModeBtn.Size = new System.Drawing.Size(137, 35);
             this.darkModeBtn.TabIndex = 14;
             this.darkModeBtn.Text = "Dark Mode";
             this.darkModeBtn.UseVisualStyleBackColor = false;
@@ -126,18 +121,17 @@ namespace PPM_Real_Estate
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1188, 577);
+            this.ClientSize = new System.Drawing.Size(891, 469);
             this.Controls.Add(this.darkModeBtn);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.logOut);
+            this.Controls.Add(this.bookViewingButton);
+            this.Controls.Add(this.rentProperties);
+            this.Controls.Add(this.buyProperties);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Home";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -147,10 +141,10 @@ namespace PPM_Real_Estate
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button buyProperties;
+        private System.Windows.Forms.Button rentProperties;
+        private System.Windows.Forms.Button bookViewingButton;
+        private System.Windows.Forms.Button logOut;
         private System.Windows.Forms.Button darkModeBtn;
     }
 }

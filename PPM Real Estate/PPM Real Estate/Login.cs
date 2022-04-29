@@ -21,7 +21,7 @@ namespace PPM_Real_Estate
         private void registerBtn_Click(object sender, EventArgs e)
         {
             var signUp = new signU();
-            signUp.Show();
+            signUp.ShowDialog();
         }
 
         private void loginBtn_Click(object sender, EventArgs e)
@@ -100,9 +100,9 @@ namespace PPM_Real_Estate
                         //MessageBox.Show("False");
                         userLogin.loggedIn = true;
                         errorMessageTxt.ForeColor = Color.White;
+                        errorMessageTxt.Text = ("");
                         var homePage = new Home();
-                        homePage.Show();
-                        this.Hide();
+                        homePage.ShowDialog();
                     };
 
                 };

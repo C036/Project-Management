@@ -86,6 +86,7 @@ namespace PPM_Real_Estate
                     newUser.ExecuteNonQuery();
                     connect.Close();
 
+                    errorMessageTxt.Text = ("");
                     this.Close();
                 }
                 else
