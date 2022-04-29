@@ -19,7 +19,33 @@ namespace PPM_Real_Estate
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Search search = new Search();
+            search.Show();
+            this.Hide();
+        }
 
+        private void darkModeBtn_Click(object sender, EventArgs e)
+        {
+            
+            
+                this.BackColor = Color.Navy;
+   
+
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Search search = new Search();
+            search.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Search search = new Search();
+            search.Show();
+            this.Hide();
         }
     }
 }
