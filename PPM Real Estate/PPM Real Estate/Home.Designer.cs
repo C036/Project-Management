@@ -36,7 +36,6 @@ namespace PPM_Real_Estate
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.darkModeBtn = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,22 +124,12 @@ namespace PPM_Real_Estate
             this.darkModeBtn.UseVisualStyleBackColor = false;
             this.darkModeBtn.Click += new System.EventHandler(this.darkModeBtn_Click);
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(947, 128);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 15;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1188, 577);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.darkModeBtn);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
@@ -163,6 +152,5 @@ namespace PPM_Real_Estate
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button darkModeBtn;
-        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
