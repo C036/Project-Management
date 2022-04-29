@@ -41,6 +41,7 @@ namespace PPM_Real_Estate
             this.backButton = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.bookingDateAndTime = new System.Windows.Forms.DateTimePicker();
+            this.BookButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -148,15 +149,32 @@ namespace PPM_Real_Estate
             // bookingDateAndTime
             // 
             this.bookingDateAndTime.Location = new System.Drawing.Point(206, 351);
+            this.bookingDateAndTime.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
             this.bookingDateAndTime.Name = "bookingDateAndTime";
             this.bookingDateAndTime.Size = new System.Drawing.Size(253, 20);
             this.bookingDateAndTime.TabIndex = 23;
+            // 
+            // BookButton
+            // 
+            this.BookButton.BackColor = System.Drawing.Color.Teal;
+            this.BookButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BookButton.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BookButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BookButton.Location = new System.Drawing.Point(127, 408);
+            this.BookButton.Name = "BookButton";
+            this.BookButton.Size = new System.Drawing.Size(258, 58);
+            this.BookButton.TabIndex = 24;
+            this.BookButton.Text = "Book";
+            this.BookButton.UseVisualStyleBackColor = false;
+            this.BookButton.Click += new System.EventHandler(this.BookButton_Click);
             // 
             // bookViewing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 435);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(532, 554);
+            this.Controls.Add(this.BookButton);
             this.Controls.Add(this.bookingDateAndTime);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.backButton);
@@ -191,5 +209,6 @@ namespace PPM_Real_Estate
         private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DateTimePicker bookingDateAndTime;
+        private System.Windows.Forms.Button BookButton;
     }
 }

@@ -48,7 +48,7 @@ namespace PPM_Real_Estate
 
                 SqlCommand emailValidation = new SqlCommand("SELECT email FROM Users WHERE email = '" + email + "'", connect);
                 SqlCommand passwordValidation = new SqlCommand("SELECT password FROM Users WHERE password = '" + password + "'", connect);
-
+                SqlCommand nameGrab = new SqlCommand("SELECT firstName, lastName from Users WHERE email ='" + email + "'", connect);
 
                 //debug
                 //MessageBox.Show("SELECT email FROM Users WHERE " + email + "");
@@ -58,6 +58,8 @@ namespace PPM_Real_Estate
 
                 string emailCheck = "";
                 string passwordCheck = "";
+                string firstName = "";
+                string lastName = "";
 
                 connect.Open();
                 SqlDataReader emailRead = emailValidation.ExecuteReader();
@@ -70,6 +72,12 @@ namespace PPM_Real_Estate
                     while (passwordRead.Read())
                     {
                         Console.WriteLine("{0}", passwordCheck = passwordRead.GetString(0));
+                    }
+                connect.Close();
+                connect.Open();
+                SqlDataReader nameRead = nameGrab.ExecuteReader();
+                    while (nameRead.Read())
+                    { Console.WriteLine("{0}{1}", firstName = nameRead.GetString(0), lastName = nameRead.GetString(1));
                     }
                 connect.Close();
 
@@ -99,11 +107,19 @@ namespace PPM_Real_Estate
                     else {
                         //MessageBox.Show("False");
                         userLogin.loggedIn = true;
-                        userLogin.email = email;
+                        userLogin.email = emailCheck;
                         userLogin.firstName = firstName;
                         userLogin.lastName = lastName;
+
+                        //debug
+                        //MessageBox.Show(lastName);
+                        //MessageBox.Show(firstName);
+
+
                         errorMessageTxt.ForeColor = Color.White;
                         errorMessageTxt.Text = ("");
+                        emailLogin.Text = "";
+                        passwordLogin.Text = "";
                         var homePage = new Home();
                         homePage.ShowDialog();
                     };

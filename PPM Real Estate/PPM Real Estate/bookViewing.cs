@@ -19,12 +19,19 @@ namespace PPM_Real_Estate
 
         private void bookViewing_Load(object sender, EventArgs e)
         {
-
+            userFirstName.Text = userLogin.firstName;
+            userLastName.Text = userLogin.lastName;
+            userEmail.Text = userLogin.email;
         }
 
         private void backButton_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void BookButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
