@@ -28,4 +28,19 @@ namespace PPM_Real_Estate
         public static string email = "";
     }
 
+
+    static class property
+    {
+        public static string propertyName = "";
+    }
+
+    static class buySell
+    {
+        public static bool buy = false;
+        public static bool sell = false;
+    }
+
+
+
+
 }

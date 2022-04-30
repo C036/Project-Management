@@ -37,11 +37,13 @@ namespace PPM_Real_Estate
             this.userFirstName = new System.Windows.Forms.TextBox();
             this.userLastName = new System.Windows.Forms.TextBox();
             this.userEmail = new System.Windows.Forms.TextBox();
-            this.propertyName = new System.Windows.Forms.TextBox();
             this.backButton = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.bookingDateAndTime = new System.Windows.Forms.DateTimePicker();
+            this.bookingDate = new System.Windows.Forms.DateTimePicker();
             this.BookButton = new System.Windows.Forms.Button();
+            this.propertyName = new System.Windows.Forms.TextBox();
+            this.bookingTime = new System.Windows.Forms.DateTimePicker();
+            this.errorMessageTxt = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -115,13 +117,6 @@ namespace PPM_Real_Estate
             this.userEmail.Size = new System.Drawing.Size(253, 20);
             this.userEmail.TabIndex = 16;
             // 
-            // propertyName
-            // 
-            this.propertyName.Location = new System.Drawing.Point(206, 287);
-            this.propertyName.Name = "propertyName";
-            this.propertyName.Size = new System.Drawing.Size(253, 20);
-            this.propertyName.TabIndex = 17;
-            // 
             // backButton
             // 
             this.backButton.BackColor = System.Drawing.Color.Teal;
@@ -146,13 +141,14 @@ namespace PPM_Real_Estate
             this.label7.TabIndex = 22;
             this.label7.Text = "Request Viewing of property";
             // 
-            // bookingDateAndTime
+            // bookingDate
             // 
-            this.bookingDateAndTime.Location = new System.Drawing.Point(206, 351);
-            this.bookingDateAndTime.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            this.bookingDateAndTime.Name = "bookingDateAndTime";
-            this.bookingDateAndTime.Size = new System.Drawing.Size(253, 20);
-            this.bookingDateAndTime.TabIndex = 23;
+            this.bookingDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.bookingDate.Location = new System.Drawing.Point(206, 351);
+            this.bookingDate.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.bookingDate.Name = "bookingDate";
+            this.bookingDate.Size = new System.Drawing.Size(135, 20);
+            this.bookingDate.TabIndex = 23;
             // 
             // BookButton
             // 
@@ -160,7 +156,7 @@ namespace PPM_Real_Estate
             this.BookButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BookButton.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BookButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BookButton.Location = new System.Drawing.Point(127, 408);
+            this.BookButton.Location = new System.Drawing.Point(127, 473);
             this.BookButton.Name = "BookButton";
             this.BookButton.Size = new System.Drawing.Size(258, 58);
             this.BookButton.TabIndex = 24;
@@ -168,14 +164,42 @@ namespace PPM_Real_Estate
             this.BookButton.UseVisualStyleBackColor = false;
             this.BookButton.Click += new System.EventHandler(this.BookButton_Click);
             // 
+            // propertyName
+            // 
+            this.propertyName.Location = new System.Drawing.Point(206, 287);
+            this.propertyName.Name = "propertyName";
+            this.propertyName.Size = new System.Drawing.Size(253, 20);
+            this.propertyName.TabIndex = 17;
+            // 
+            // bookingTime
+            // 
+            this.bookingTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.bookingTime.Location = new System.Drawing.Point(347, 351);
+            this.bookingTime.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.bookingTime.Name = "bookingTime";
+            this.bookingTime.Size = new System.Drawing.Size(112, 20);
+            this.bookingTime.TabIndex = 25;
+            // 
+            // errorMessageTxt
+            // 
+            this.errorMessageTxt.AutoSize = true;
+            this.errorMessageTxt.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errorMessageTxt.ForeColor = System.Drawing.Color.White;
+            this.errorMessageTxt.Location = new System.Drawing.Point(124, 412);
+            this.errorMessageTxt.Name = "errorMessageTxt";
+            this.errorMessageTxt.Size = new System.Drawing.Size(0, 17);
+            this.errorMessageTxt.TabIndex = 26;
+            // 
             // bookViewing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(532, 554);
+            this.Controls.Add(this.errorMessageTxt);
+            this.Controls.Add(this.bookingTime);
             this.Controls.Add(this.BookButton);
-            this.Controls.Add(this.bookingDateAndTime);
+            this.Controls.Add(this.bookingDate);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.propertyName);
@@ -205,10 +229,12 @@ namespace PPM_Real_Estate
         private System.Windows.Forms.TextBox userFirstName;
         private System.Windows.Forms.TextBox userLastName;
         private System.Windows.Forms.TextBox userEmail;
-        private System.Windows.Forms.TextBox propertyName;
         private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker bookingDateAndTime;
+        private System.Windows.Forms.DateTimePicker bookingDate;
         private System.Windows.Forms.Button BookButton;
+        private System.Windows.Forms.TextBox propertyName;
+        private System.Windows.Forms.DateTimePicker bookingTime;
+        private System.Windows.Forms.Label errorMessageTxt;
     }
 }
