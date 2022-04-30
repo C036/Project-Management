@@ -43,7 +43,7 @@ namespace PPM_Real_Estate
             string lastName = userLastName.Text;
             string property = propertyName.Text;
             string date = bookingDate.Value.ToString("yyyyMMdd");
-            string time = bookingTime.Value.ToString("hh:mm");
+            string time = bookingTime.Value.ToString("hh:mm"); 
 
             if (email == "" || firstName == "" || lastName == "" || property == "")
             {
@@ -64,12 +64,12 @@ namespace PPM_Real_Estate
                 connect.Close();
 
                 //email replay with booking information - sourced from https://tutorialslink.com/Articles/How-to-send-emails-in-Csharp-windows-form-application/1954
-                    MailMessage mail = new MailMessage("Pattison1995@hotmail.co.uk", email, "Your Booking Details", "Hello, your viewing booking is as follows; Property: " + property +" date: " + date + " time: " + time + ". we look forwards to seeing you soon!" );
+                    MailMessage mail = new MailMessage(/*Put Source Email here*/"", email, "Your Booking Details", "Hello, your viewing booking is as follows; Property: " + property +" date: " + date + " time: " + time + ". we look forwards to seeing you soon!" );
                 // Hotmail/outlook Smtp domain uncomment the line below to use it
                 //SmtpClient client = new SmtpClient("smtp-mail.outlook.com");
-
-                // Gmail Smtp domain uncomment the line below to use it 
+                //Gmail Smtp domain uncomment the line below to use it 
                 SmtpClient client = new SmtpClient("smtp.gmail.com");
+
                 client.Port = 587;
                     client.Credentials = new System.Net.NetworkCredential(/*add account here*/"", /* add password here*/"");
                     client.EnableSsl = true;
