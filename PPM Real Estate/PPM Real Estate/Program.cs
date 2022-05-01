@@ -37,7 +37,7 @@ namespace PPM_Real_Estate
     static class buySell
     {
         public static bool buy = false;
-        public static bool sell = false;
+        
     }
 
 
