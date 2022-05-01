@@ -32,7 +32,6 @@ namespace PPM_Real_Estate
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buyProperties = new System.Windows.Forms.Button();
-            this.rentProperties = new System.Windows.Forms.Button();
             this.bookViewingButton = new System.Windows.Forms.Button();
             this.logOut = new System.Windows.Forms.Button();
             this.darkModeBtn = new System.Windows.Forms.Button();
@@ -59,23 +58,9 @@ namespace PPM_Real_Estate
             this.buyProperties.Name = "buyProperties";
             this.buyProperties.Size = new System.Drawing.Size(258, 58);
             this.buyProperties.TabIndex = 9;
-            this.buyProperties.Text = "To Buy";
+            this.buyProperties.Text = "View Properties";
             this.buyProperties.UseVisualStyleBackColor = false;
             this.buyProperties.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // rentProperties
-            // 
-            this.rentProperties.BackColor = System.Drawing.Color.Teal;
-            this.rentProperties.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rentProperties.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rentProperties.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.rentProperties.Location = new System.Drawing.Point(304, 327);
-            this.rentProperties.Name = "rentProperties";
-            this.rentProperties.Size = new System.Drawing.Size(258, 58);
-            this.rentProperties.TabIndex = 10;
-            this.rentProperties.Text = "To Rent ";
-            this.rentProperties.UseVisualStyleBackColor = false;
-            this.rentProperties.Click += new System.EventHandler(this.button2_Click);
             // 
             // bookViewingButton
             // 
@@ -83,7 +68,7 @@ namespace PPM_Real_Estate
             this.bookViewingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bookViewingButton.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bookViewingButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.bookViewingButton.Location = new System.Drawing.Point(304, 391);
+            this.bookViewingButton.Location = new System.Drawing.Point(304, 327);
             this.bookViewingButton.Name = "bookViewingButton";
             this.bookViewingButton.Size = new System.Drawing.Size(258, 58);
             this.bookViewingButton.TabIndex = 11;
@@ -128,7 +113,6 @@ namespace PPM_Real_Estate
             this.Controls.Add(this.darkModeBtn);
             this.Controls.Add(this.logOut);
             this.Controls.Add(this.bookViewingButton);
-            this.Controls.Add(this.rentProperties);
             this.Controls.Add(this.buyProperties);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Home";
@@ -141,7 +125,6 @@ namespace PPM_Real_Estate
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button buyProperties;
-        private System.Windows.Forms.Button rentProperties;
         private System.Windows.Forms.Button bookViewingButton;
         private System.Windows.Forms.Button logOut;
         private System.Windows.Forms.Button darkModeBtn;
