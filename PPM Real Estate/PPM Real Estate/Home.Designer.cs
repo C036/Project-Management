@@ -122,7 +122,7 @@ namespace PPM_Real_Estate
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.button1.BackColor = System.Drawing.Color.Teal;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -130,8 +130,9 @@ namespace PPM_Real_Estate
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(137, 35);
             this.button1.TabIndex = 15;
-            this.button1.Text = "Dark Mode";
+            this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Home
             // 

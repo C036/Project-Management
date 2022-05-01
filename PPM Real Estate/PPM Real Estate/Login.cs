@@ -127,5 +127,15 @@ namespace PPM_Real_Estate
                 };
             }
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

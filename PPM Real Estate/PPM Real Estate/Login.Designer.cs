@@ -113,6 +113,7 @@ namespace PPM_Real_Estate
             this.button3.TabIndex = 20;
             this.button3.Text = "<";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // registerBtn
             // 
@@ -156,6 +157,7 @@ namespace PPM_Real_Estate
             this.Controls.Add(this.label1);
             this.Name = "Login";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

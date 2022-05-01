@@ -128,6 +128,7 @@ namespace PPM_Real_Estate
             this.button1.TabIndex = 16;
             this.button1.Text = "Buy";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -212,6 +213,7 @@ namespace PPM_Real_Estate
             this.button6.TabIndex = 24;
             this.button6.Text = "Buy";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Houses
             // 

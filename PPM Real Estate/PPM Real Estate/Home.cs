@@ -47,5 +47,11 @@ namespace PPM_Real_Estate
             userLogin.loggedIn = false;
             this.Dispose();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var Search = new Search();
+            Search.Show();
+        }
     }
 }

@@ -55,5 +55,15 @@ namespace PPM_Real_Estate
             var bookViewing = new bookViewing();
             bookViewing.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("If you are interested in buying please book viewing with name and property name");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("If you are interested in buying please book viewing with name and property name");
+        }
     }
 }

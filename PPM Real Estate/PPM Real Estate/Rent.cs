@@ -35,5 +35,15 @@ namespace PPM_Real_Estate
             home.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("If you are interested in renting please book viewing with name and property name");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("If you are interested in renting please book viewing with name and property name");
+        }
     }
 }

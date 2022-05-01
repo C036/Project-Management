@@ -102,3 +102,5 @@ C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\o
 C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.CoreCompileInputs.cache
 C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.exe
 C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.pdb
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Rent.resources
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Search.resources
