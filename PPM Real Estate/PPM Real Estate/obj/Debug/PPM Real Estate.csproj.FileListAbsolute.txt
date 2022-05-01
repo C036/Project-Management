@@ -82,3 +82,23 @@ D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1Da
 D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\Database1DataSet.xss
 D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\.mdf
 D:\Users\patti\Desktop\PPM\PPM Real Estate\PPM Real Estate\bin\Debug\_log.ldf
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\.mdf
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\_log.ldf
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\Database1DataSet.Designer.cs
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\Database1DataSet.xsc
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\Database1DataSet.xsd
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\Database1DataSet.xss
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.exe.config
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.exe
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\bin\Debug\PPM Real Estate.pdb
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.AssemblyReference.cache
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.bookViewing.resources
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Home.resources
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Houses.resources
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Login.resources
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.Properties.Resources.resources
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM_Real_Estate.signU.resources
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.GenerateResource.cache
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.csproj.CoreCompileInputs.cache
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.exe
+C:\Users\chris\Source\Repos\Project-Management\PPM Real Estate\PPM Real Estate\obj\Debug\PPM Real Estate.pdb

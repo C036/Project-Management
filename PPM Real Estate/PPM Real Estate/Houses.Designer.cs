@@ -125,6 +125,7 @@ namespace PPM_Real_Estate
             this.button4.TabIndex = 15;
             this.button4.Text = "Book Viewing";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button1
             // 
@@ -254,7 +255,7 @@ namespace PPM_Real_Estate
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1078, 788);
+            this.ClientSize = new System.Drawing.Size(1078, 749);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);

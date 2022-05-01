@@ -43,5 +43,11 @@ namespace PPM_Real_Estate
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var bookViewing = new bookViewing();
+            bookViewing.Show();
+        }
     }
 }
