@@ -131,7 +131,6 @@ namespace PPM_Real_Estate
             this.Controls.Add(this.rentProperties);
             this.Controls.Add(this.buyProperties);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -270,7 +270,6 @@ namespace PPM_Real_Estate
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Houses";
             this.Text = "Houses";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

@@ -211,7 +211,6 @@ namespace PPM_Real_Estate
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "bookViewing";
             this.Text = "bookViewing";
             this.Load += new System.EventHandler(this.bookViewing_Load);

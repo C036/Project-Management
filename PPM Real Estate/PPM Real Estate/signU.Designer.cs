@@ -206,7 +206,6 @@ namespace PPM_Real_Estate
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "signU";
             this.Text = "signU";
             this.Load += new System.EventHandler(this.signU_Load);
