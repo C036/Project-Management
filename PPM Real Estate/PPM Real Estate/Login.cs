@@ -108,5 +108,10 @@ namespace PPM_Real_Estate
                 };
             }
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

@@ -43,5 +43,18 @@ namespace PPM_Real_Estate
         {
 
         }
+
+        private void Houses_Load(object sender, EventArgs e)
+        {
+            if (check.dark == false)
+            {
+                this.BackColor = Color.FromArgb(0, 51, 102);
+            }
+
+            else
+            {
+                this.BackColor = Color.White;
+            }
+        }
     }
 }

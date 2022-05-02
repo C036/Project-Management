@@ -17,11 +17,23 @@ namespace PPM_Real_Estate
             InitializeComponent();
         }
 
+        
+
         private void darkModeBtn_Click(object sender, EventArgs e)
         {
-                this.BackColor = Color.Navy;
+            if (check.dark == false)
+            {
+                this.BackColor = Color.FromArgb(0, 51, 102);
+            }
+
+            else
+            {
+                this.BackColor = Color.White;
+            }
+
         }
 
+        
         private void button1_Click(object sender, EventArgs e)
         {
             var searchPage = new Search();

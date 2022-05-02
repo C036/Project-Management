@@ -26,4 +26,9 @@ namespace PPM_Real_Estate
         public static bool loggedIn = false;
     }
 
+    public static class check
+    {
+        public static bool dark = false;
+    }
+
 }
